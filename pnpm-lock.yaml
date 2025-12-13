@@ -35,18 +35,12 @@ importers:
 
   mcp-domain-checker:
     dependencies:
-      '@3viky/mcp-common':
-        specifier: workspace:*
-        version: link:../mcp-common
       '@modelcontextprotocol/sdk':
         specifier: ^1.24.3
         version: 1.24.3(zod@3.25.76)
       dotenv:
         specifier: ^16.6.1
         version: 16.6.1
-      playwright:
-        specifier: ^1.57.0
-        version: 1.57.0
       whoiser:
         specifier: ^1.18.0
         version: 1.18.0
@@ -57,9 +51,6 @@ importers:
       typescript:
         specifier: ^5.7.2
         version: 5.9.3
-      vitest:
-        specifier: ^2.1.5
-        version: 2.1.9(@types/node@22.19.2)
 
   mcp-domain-checker-price:
     dependencies:
@@ -85,9 +76,6 @@ importers:
 
   mcp-gitlab-ci:
     dependencies:
-      '@3viky/mcp-common':
-        specifier: workspace:*
-        version: link:../mcp-common
       '@modelcontextprotocol/sdk':
         specifier: ^1.24.3
         version: 1.24.3(zod@3.25.76)
@@ -104,9 +92,6 @@ importers:
 
   mcp-opener:
     dependencies:
-      '@3viky/mcp-common':
-        specifier: workspace:*
-        version: link:../mcp-common
       '@modelcontextprotocol/sdk':
         specifier: ^1.24.3
         version: 1.24.3(zod@3.25.76)
@@ -1529,11 +1514,6 @@ packages:
   fs-constants@1.0.0:
     resolution: {integrity: sha512-y6OAwoSIf7FyjMIv94u+b5rdheZEjzR63GTyZJm5qh4Bi+2YgwLCcI/fPFZkL5PSixOt6ZNKm+w+Hfp/Bciwow==}
 
-  fsevents@2.3.2:
-    resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
-    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
-    os: [darwin]
-
   fsevents@2.3.3:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
@@ -1927,16 +1907,6 @@ packages:
   pkce-challenge@5.0.1:
     resolution: {integrity: sha512-wQ0b/W4Fr01qtpHlqSqspcj3EhBvimsdh0KlHhH8HRZnMsEa0ea2fTULOXOS9ccQr3om+GcGRk4e+isrZWV8qQ==}
     engines: {node: '>=16.20.0'}
-
-  playwright-core@1.57.0:
-    resolution: {integrity: sha512-agTcKlMw/mjBWOnD6kFZttAAGHgi/Nw0CZ2o6JqWSbMlI219lAFLZZCyqByTsvVAJq5XA5H8cA6PrvBRpBWEuQ==}
-    engines: {node: '>=18'}
-    hasBin: true
-
-  playwright@1.57.0:
-    resolution: {integrity: sha512-ilYQj1s8sr2ppEJ2YVadYBN0Mb3mdo9J0wQ+UuDhzYqURwSoW4n1Xs5vs7ORwgDGmyEh33tRMeS8KhdkMoLXQw==}
-    engines: {node: '>=18'}
-    hasBin: true
 
   postcss-value-parser@4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
@@ -3727,9 +3697,6 @@ snapshots:
 
   fs-constants@1.0.0: {}
 
-  fsevents@2.3.2:
-    optional: true
-
   fsevents@2.3.3:
     optional: true
 
@@ -4064,14 +4031,6 @@ snapshots:
   picomatch@4.0.3: {}
 
   pkce-challenge@5.0.1: {}
-
-  playwright-core@1.57.0: {}
-
-  playwright@1.57.0:
-    dependencies:
-      playwright-core: 1.57.0
-    optionalDependencies:
-      fsevents: 2.3.2
 
   postcss-value-parser@4.2.0: {}
 

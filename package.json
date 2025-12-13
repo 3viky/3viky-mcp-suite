@@ -1,8 +1,8 @@
 {
-  "name": "@3viky/mcp-monorepo",
+  "name": "@3viky/3viky-mcp-suite",
   "version": "1.0.0",
   "private": true,
-  "description": "MCP services monorepo",
+  "description": "Complete suite of MCP servers for Claude Code",
   "scripts": {
     "build": "pnpm -r --filter './mcp-*' build",
     "test": "pnpm -r --filter './mcp-*' test",

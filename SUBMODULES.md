@@ -35,11 +35,11 @@ This monorepo uses **git submodules** to manage 7 independent MCP service reposi
 
 ```bash
 # Method 1: Clone and initialize in one command
-git clone --recurse-submodules git@github.com:3viky/mcp-monorepo.git
+git clone --recurse-submodules git@github.com:3viky/3viky-mcp-suite.git
 
 # Method 2: Clone first, then initialize submodules
-git clone git@github.com:3viky/mcp-monorepo.git
-cd mcp-monorepo
+git clone git@github.com:3viky/3viky-mcp-suite.git
+cd 3viky-mcp-suite
 git submodule update --init --recursive
 ```
 

@@ -30,7 +30,7 @@ This monorepo contains 7 packages:
 
 ```bash
 # Clone with all submodules
-git clone --recurse-submodules git@github.com:3viky/mcp-monorepo.git
+git clone --recurse-submodules git@github.com:3viky/3viky-mcp-suite.git
 
 # Or if already cloned, initialize submodules
 git submodule update --init --recursive
@@ -370,7 +370,7 @@ Services extend the base config and add service-specific options:
 
 ## 🔗 Links
 
-- **GitHub:** https://github.com/3viky/mcp-suite
+- **GitHub:** https://github.com/3viky/3viky-mcp-suite
 - **MCP Protocol:** https://modelcontextprotocol.io
 - **Claude Code:** https://code.claude.com
 

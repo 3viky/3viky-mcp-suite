@@ -1,0 +1,32 @@
+{
+  "name": "@3viky/mcp-suite",
+  "version": "1.0.0",
+  "description": "Complete suite of productivity MCP servers for Claude Code",
+  "type": "module",
+  "files": [
+    "plugin.json",
+    "servers/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "prebuild": "node scripts/bundle.js",
+    "build": "echo 'Plugin bundled successfully'",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "claude-code",
+    "claude-code-plugin",
+    "mcp",
+    "model-context-protocol"
+  ],
+  "author": "Victoria Lackey <VictoriaLackey@pm.me>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3viky/mcp-suite.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}

@@ -1,0 +1,12 @@
+# Source files (only publish built bundle)
+scripts/
+
+# Development
+.gitignore
+*.log
+
+# Keep these in published package
+!servers/
+!plugin.json
+!README.md
+!LICENSE

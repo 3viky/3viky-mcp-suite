@@ -1,0 +1,30 @@
+{
+  "name": "@3viky/mcp-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MCP services monorepo",
+  "scripts": {
+    "build": "pnpm -r --filter './mcp-*' build",
+    "test": "pnpm -r --filter './mcp-*' test",
+    "typecheck": "pnpm -r --filter './mcp-*' typecheck",
+    "clean": "pnpm -r --filter './mcp-*' clean",
+    "version:check": "node scripts/check-versions.js"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/sdk": "^1.24.3",
+    "typescript": "^5.7.2",
+    "vitest": "^4.0.15"
+  },
+  "pnpm": {
+    "overrides": {
+      "@modelcontextprotocol/sdk": "^1.24.3",
+      "@types/node": "^22.10.1",
+      "typescript": "^5.7.2",
+      "vitest": "^2.1.5"
+    }
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}

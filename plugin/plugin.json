@@ -1,0 +1,47 @@
+{
+  "name": "@3viky/mcp-suite",
+  "version": "1.0.0",
+  "description": "Complete suite of productivity MCP servers",
+  "author": "Victoria Lackey <VictoriaLackey@pm.me>",
+  "license": "MIT",
+  "mcpServers": {
+    "domain-checker": {
+      "command": "node",
+      "args": ["./servers/domain-checker/dist/index.js"],
+      "description": "Domain availability checking via WHOIS/DNS"
+    },
+    "domain-checker-price": {
+      "command": "node",
+      "args": ["./servers/domain-checker-price/dist/index.js"],
+      "description": "Domain pricing information (Joker.com)"
+    },
+    "gitlab-ci": {
+      "command": "node",
+      "args": ["./servers/gitlab-ci/dist/index.js"],
+      "description": "GitLab CI/CD pipeline monitoring",
+      "env": {
+        "GITLAB_URL": "",
+        "GITLAB_TOKEN": ""
+      }
+    },
+    "opener": {
+      "command": "node",
+      "args": ["./servers/opener/dist/index.js"],
+      "description": "Open files, folders, and browsers cross-platform"
+    },
+    "stream-workflow": {
+      "command": "node",
+      "args": ["./servers/stream-workflow/dist/server.js"],
+      "description": "Git worktree workflow automation"
+    },
+    "stream-workflow-status": {
+      "command": "node",
+      "args": ["./servers/stream-workflow-status/dist/server.js"],
+      "description": "Stream status tracking with dashboard",
+      "env": {
+        "API_ENABLED": "true",
+        "API_PORT": "3000"
+      }
+    }
+  }
+}

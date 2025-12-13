@@ -24,6 +24,18 @@ This monorepo contains 7 packages:
 
 ## 🚀 Quick Start
 
+> **⚠️ Important:** This monorepo uses git submodules. See [SUBMODULES.md](./SUBMODULES.md) for detailed workflow documentation.
+
+### Initial Clone
+
+```bash
+# Clone with all submodules
+git clone --recurse-submodules git@github.com:3viky/mcp-monorepo.git
+
+# Or if already cloned, initialize submodules
+git submodule update --init --recursive
+```
+
 ### Development Setup
 
 ```bash
@@ -350,6 +362,11 @@ Services extend the base config and add service-specific options:
 4. **Lazy loading:** Load services on-demand instead of at startup
 
 ---
+
+## 📖 Documentation
+
+- **[SUBMODULES.md](./SUBMODULES.md)** - Complete guide to working with git submodules in this monorepo
+- **[plugin/README.md](./plugin/README.md)** - Claude Code plugin usage and installation
 
 ## 🔗 Links
 

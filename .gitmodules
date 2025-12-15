@@ -1,21 +1,21 @@
 [submodule "mcp-gitlab-ci"]
 	path = mcp-gitlab-ci
-	url = git@github.com:3viky/mcp-gitlab-ci.git
+	url = git@github.com-3viky:3viky/mcp-gitlab-ci.git
 [submodule "mcp-opener"]
 	path = mcp-opener
-	url = git@github.com:3viky/mcp-opener.git
+	url = git@github.com-3viky:3viky/mcp-opener.git
 [submodule "mcp-stream-workflow"]
 	path = mcp-stream-workflow
-	url = git@github.com:3viky/mcp-stream-workflow.git
+	url = git@github.com-3viky:3viky/mcp-stream-workflow.git
 [submodule "mcp-stream-workflow-status"]
 	path = mcp-stream-workflow-status
-	url = git@github.com:3viky/mcp-stream-workflow-status.git
+	url = git@github.com-3viky:3viky/mcp-stream-workflow-status.git
 [submodule "mcp-domain-checker"]
 	path = mcp-domain-checker
-	url = git@github.com:3viky/mcp-domain-checker.git
+	url = git@github.com-3viky:3viky/mcp-domain-checker.git
 [submodule "mcp-domain-checker-price"]
 	path = mcp-domain-checker-price
-	url = git@github.com:3viky/mcp-domain-checker-price.git
+	url = git@github.com-3viky:3viky/mcp-domain-checker-price.git
 [submodule "mcp-common"]
 	path = mcp-common
-	url = git@github.com:3viky/mcp-common.git
+	url = git@github.com-3viky:3viky/mcp-common.git

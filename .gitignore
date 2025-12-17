@@ -44,3 +44,6 @@ plugin/servers/
 
 # Rename backups (from earlier operations)
 .rename-backup-*/
+
+# Claude Code
+.claude/

@@ -1,4 +1,4 @@
 packages:
   - 'mcp-*'
-  - 'mcp-stream-workflow-status/dashboard'
+  - 'stream-workflow-status-dashboard'
   - 'plugin'

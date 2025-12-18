@@ -19,3 +19,6 @@
 [submodule "mcp-common"]
 	path = mcp-common
 	url = git@github.com-3viky:3viky/mcp-common.git
+[submodule "stream-workflow-status-dashboard"]
+	path = stream-workflow-status-dashboard
+	url = git@github.com-3viky:3viky/stream-workflow-status-dashboard.git
